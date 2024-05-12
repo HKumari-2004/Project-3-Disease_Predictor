@@ -208,18 +208,15 @@ Symptom5.set(None)
 Name = StringVar()
 
 # Heading
-w2 = Label(root, justify=LEFT, text="Disease Predictor using Machine Learning", fg="white", bg="blue")
+w2 = Label(root, justify=LEFT, text="Disease Predictor System using Machine Learning", fg="white", bg="blue")
 w2.config(font=("Elephant", 30))
 w2.grid(row=1, column=0, columnspan=2, padx=100)
-w2 = Label(root, justify=LEFT, text="A Project by Yaswanth Sai Palaghat", fg="white", bg="blue")
-w2.config(font=("Aharoni", 30))
-w2.grid(row=2, column=0, columnspan=2, padx=100)
 
 # labels
 NameLb = Label(root, text="Name of the Patient", fg="yellow", bg="black")
 NameLb.grid(row=6, column=0, pady=15, sticky=W)
 
-
+# Symptoms
 S1Lb = Label(root, text="Symptom 1", fg="yellow", bg="black")
 S1Lb.grid(row=7, column=0, pady=10, sticky=W)
 
